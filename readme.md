@@ -13,8 +13,9 @@ docker run -p 127.0.0.1:8080:8090/TCP java-docker
   - Docker and Azure App Service extensions 
   - instance of Azure Container Registry (ACR)
 
-- Step:
-        - Open the Docker Explorer and select Connect Registry.
-        - Tag the image :   <your registry or username>/<image name>:<tag> (webapp6.azurecr.io/webapp6:latest)
-        - Push image to registry.
-        - Click on Deploy Image To Azure App Service
+
+ Steps: 
+ - Open the Docker Explorer and select Connect Registry.
+ - Tag the image :   <your registry or username>/<image name>:<tag> (webapp6.azurecr.io/webapp6:latest)
+ - Push image to registry.
+ - Click on Deploy Image To Azure App Service
